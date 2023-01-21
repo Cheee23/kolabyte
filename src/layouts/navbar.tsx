@@ -6,7 +6,6 @@ import {
   Discord,
   Github,
   ThemeToggle,
-  Heart,
   NotifyBanner,
   Mail,
 } from "@components";
