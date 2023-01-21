@@ -45,7 +45,7 @@ const HeroComponents = () => {
         <Image   
           showSkeleton
           objectFit="cover"
-          width={400}
+          width={450}
           height={400}
           maxDelay={10000}
           src="/images/hero.webp"
