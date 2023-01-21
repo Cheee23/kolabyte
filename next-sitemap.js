@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "",
+  siteUrl: "https://kolabyte.vercel.app/",
   generateRobotsTxt: true,
   exclude: ["/examples/*"],
 };
