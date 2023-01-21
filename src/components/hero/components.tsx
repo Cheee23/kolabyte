@@ -1,8 +1,6 @@
 import React, {useEffect} from "react";
-import {
-  styled, Image,
-  Grid,
-} from "@nextui-org/react";
+import {styled, Grid} from "@nextui-org/react";
+import Image from 'next/image'
 import {levitating} from "@utils/animations";
 import {useIsMobile} from "@hooks/use-media-query";
 
@@ -43,13 +41,12 @@ const HeroComponents = () => {
         }}
       >
         <Image   
-          showSkeleton
           objectFit="cover"
           width={450}
           height={400}
-          maxDelay={10000}
           src="/images/hero.webp"
-          alt="Default Image"
+          alt="Hero image"
+          loading='lazy'
         />
       </Grid>
       
