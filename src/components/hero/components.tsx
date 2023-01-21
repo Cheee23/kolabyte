@@ -5,7 +5,6 @@ import {
 } from "@nextui-org/react";
 import {levitating} from "@utils/animations";
 import {useIsMobile} from "@hooks/use-media-query";
-import {darkTheme} from "@theme/shared";
 
 const StyledContainer = styled("div", {
   dflex: "center",
