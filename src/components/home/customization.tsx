@@ -25,7 +25,7 @@ const CustomizationSection = () => {
             },
           }}
         >
-          <img alt="customization background" src="/customization-gradient.svg" />
+          <img width="60%" height="60%" alt="customization background" src="/customization-gradient.svg" />
         </Box>
         <Row justify="flex-start">
           <Title>Email marketing</Title>

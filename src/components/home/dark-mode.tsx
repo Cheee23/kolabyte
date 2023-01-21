@@ -30,7 +30,7 @@ const DarkModeSection = () => {
             },
           }}
         >
-          <img alt="dark mode background" src="/dark-mode-gradient.svg" />
+          <img alt="dark mode background" width="100%" height="100%"src="/dark-mode-gradient.svg" />
         </Box>
         <Row justify="flex-start">
           <Title>Dominating search engine</Title>

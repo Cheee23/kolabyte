@@ -32,7 +32,7 @@ const CustomThemesSection = () => {
             },
           }}
         >
-          <img alt="theming background" src="/theming-gradient.svg" />
+          <img alt="theming background" width="100%" height="100%" src="/theming-gradient.svg" />
         </Box>
         <Row justify="flex-start">
           <Title>Custom</Title>

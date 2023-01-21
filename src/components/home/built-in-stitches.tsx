@@ -49,7 +49,7 @@ const BuiltInStitchesSection = () => {
             },
           }}
         >
-          <img alt="theming background" src="/stitches-gradient.svg" />
+          <img alt="theming background" width="100%" height="100%" src="/stitches-gradient.svg" />
         </Box>
         <Row justify="flex-start">
           <Title>One</Title>
