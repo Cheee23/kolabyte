@@ -32,9 +32,9 @@ const HeroComponents = () => {
         css={{
           position: "absolute",
           cursor: "pointer",
-          top: "-140px",
-          right: "-500px",
-          dflex: "center",
+          size:"500px",
+          left:"$15",
+          dflex: "right",
           animation: `${levitating} 15s ease infinite`,
         }}
         onClick={() => {
@@ -42,8 +42,8 @@ const HeroComponents = () => {
       >
         <Image   
           objectFit="cover"
-          width={450}
-          height={400}
+          width={650}
+          height={500}
           src="/images/hero.webp"
           alt="Hero image"
           loading='lazy'

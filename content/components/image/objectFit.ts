@@ -5,7 +5,7 @@ export default function App() {
     <Grid.Container gap={2}>
       <Grid>
         <Image
-          src="https://github.com/nextui-org/nextui/blob/next/apps/docs/public/nextui-banner.jpeg?raw=true"
+          src="https://github.com/nextui-org/nextui/blob/next/apps/docs/public/banner.jpeg?raw=true"
           objectFit="none"
           alt="Default Image"
           width={200}
@@ -14,7 +14,7 @@ export default function App() {
       </Grid>
       <Grid>
         <Image
-          src="https://github.com/nextui-org/nextui/blob/next/apps/docs/public/nextui-banner.jpeg?raw=true"
+          src="https://github.com/nextui-org/nextui/blob/next/apps/docs/public/banner.jpeg?raw=true"
           objectFit="cover"
           alt="Default Image"
           width={200}
@@ -23,7 +23,7 @@ export default function App() {
       </Grid>
       <Grid>
         <Image
-          src="https://github.com/nextui-org/nextui/blob/next/apps/docs/public/nextui-banner.jpeg?raw=true"
+          src="https://github.com/nextui-org/nextui/blob/next/apps/docs/public/banner.jpeg?raw=true"
           objectFit="fill"
           alt="Default Image"
           width={200}

@@ -14,7 +14,7 @@ export interface HeaderProps {
 
 const defaultProps = {
   description: "Where every byte counts towards your digital success.",
-  image: "/twitter-cards/nextui.jpeg",
+  image: "/twitter-cards/kolabyte.webp",
 };
 
 if (global.document) {

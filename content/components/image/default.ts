@@ -5,7 +5,7 @@ export default function App() {
     <Image
       width={320}
       height={180}  
-      src="https://github.com/nextui-org/nextui/blob/next/apps/docs/public/nextui-banner.jpeg?raw=true"
+      src="https://github.com/nextui-org/nextui/blob/next/apps/docs/public/banner.jpg?raw=true"
       alt="Default Image"
       objectFit="cover"
     />

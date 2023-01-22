@@ -1,7 +1,8 @@
 import React from "react";
 import {Section, Title, Subtitle} from "@primitives";
 import {InView} from "react-intersection-observer";
-import {Grid, Row, Col, Spacer, Text, Image} from "@nextui-org/react";
+import {Grid, Row, Col, Spacer, Text} from "@nextui-org/react";
+import Image from 'next/image'
 
 const ComparationSection = () => {
 
@@ -40,13 +41,14 @@ const ComparationSection = () => {
                 h: "100%",
               }}
             >
-              <Image   
-                showSkeleton
-                objectFit="cover"
-                maxDelay={10000}
-                src="/images/sosmed.png"
-                alt="Default Image"
-              />
+            <Image   
+              objectFit="cover"
+              width={638}
+              height={325}
+              src="/images/before_sosmed.webp"
+              alt="Hero image"
+              loading='lazy'
+            />
               <Text css={{color: "$accents6", fontSize: "$xl"}}>Before</Text>
             </Col>
           </Grid>
@@ -62,10 +64,10 @@ const ComparationSection = () => {
           >
             <Col css={{dflex: "center", fd: "column", h: "100%"}}>
               <Image   
-                showSkeleton
                 objectFit="cover"
-                maxDelay={10000}
-                src="/images/sosmed.png"
+                src="/images/after_sosmed.webp"
+                width={638}
+                height={325}
                 alt="Default Image"
               />
               <Text css={{color: "$text", fontSize: "$xl"}}>After</Text>
