@@ -8,42 +8,22 @@ import React from "react";
 const list = [
   {
     title: "Orange",
-    img: "/images/fruit-1.jpeg",
+    img: "/portofolio/kolabyte.webp",
     link: "https://fiqlab.dev"
   },
   {
     title: "Tangerine",
-    img: "/images/fruit-2.jpeg",
+    img: "/portofolio/kolabyte.webp",
     link: "https://fiqlab.dev"
   },
   {
     title: "Cherry",
-    img: "/images/fruit-3.jpeg",
+    img: "/portofolio/kolabyte.webp",
     link: "https://fiqlab.dev"
   },
   {
     title: "Lemon",
-    img: "/images/fruit-4.jpeg",
-    link: "https://fiqlab.dev"
-  },
-  {
-    title: "Avocado",
-    img: "/images/fruit-5.jpeg",
-    link: "https://fiqlab.dev"
-  },
-  {
-    title: "Lemon 2",
-    img: "/images/fruit-6.jpeg",
-    link: "https://fiqlab.dev"
-  },
-  {
-    title: "Banana",
-    img: "/images/fruit-7.jpeg",
-    link: "https://fiqlab.dev"
-  },
-  {
-    title: "Watermelon",
-    img: "/images/fruit-8.jpeg",
+    img: "/portofolio/kolabyte.webp",
     link: "https://fiqlab.dev"
   },
 ];
@@ -81,7 +61,7 @@ const SupportSection: React.FC<SupportSectionProps> = () => {
           <Card isPressable>
             <Card.Body css={{ p: 0 }}>
               <Card.Image
-                src={"https://nextui.org" + item.img}
+                src={"https://kolabyte.vercel.app/" + item.img}
                 objectFit="cover"
                 width="100%"
                 height={140}
