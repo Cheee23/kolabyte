@@ -72,8 +72,8 @@ const CustomThemesSection = () => {
         <Image   
           objectFit="cover"
           width={1600}
-          height={682}
-          src="/images/custom_web.png"
+          height={750}
+          src="/images/custom_web.webp"
           alt="Custom Website"
           blurDataURL="URL"
           placeholder="blur"
