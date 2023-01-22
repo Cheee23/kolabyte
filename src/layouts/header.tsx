@@ -14,7 +14,7 @@ export interface HeaderProps {
 
 const defaultProps = {
   description: "Where every byte counts towards your digital success.",
-  image: "/twitter-cards/kolabyte.webp",
+  image: "https://raw.githubusercontent.com/fiqgant/kolabyte/main/public/twitter-cards/kolabyte.webp",
 };
 
 if (global.document) {

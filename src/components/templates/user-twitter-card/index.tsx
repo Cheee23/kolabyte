@@ -93,7 +93,7 @@ const UserTwitterCard: React.FC<UserTwitterCardProps> = ({
             css={{mt: "$1"}}
             size={14}
           >
-            Full-stack developer, @getnextui lover she/her 🎉
+            Kolabyte - every byte every growth 🎉
           </Text>
         </Grid>
       </Grid.Container>

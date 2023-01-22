@@ -1,8 +1,9 @@
 import * as React from "react";
 import {InView} from "react-intersection-observer";
 import cn from "classnames";
+import Image from 'next/image'
 import {Section, Title, Subtitle, Box} from "@primitives";
-import {Grid, Row, Col, Text, Collapse, Spacer, Image} from "@nextui-org/react";
+import {Grid, Row, Col, Text, Collapse, Spacer} from "@nextui-org/react";
 
 const items = [
   {
@@ -151,11 +152,14 @@ const BuiltInStitchesSection = () => {
               }}
             >
               <Image   
-                showSkeleton
                 objectFit="cover"
-                maxDelay={10000}
+                width={638}
+                height={325}
                 src="/images/contoh_dll.png"
-                alt="Default Image"
+                alt="Hero image"
+                loading='lazy'
+                blurDataURL="URL"
+                placeholder="blur"
               />
             </Col>
           </Grid>

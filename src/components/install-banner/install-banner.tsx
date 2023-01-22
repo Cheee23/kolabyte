@@ -1,7 +1,8 @@
-import { Button, Container, Grid, Image } from "@nextui-org/react";
+import { Button, Container, Grid} from "@nextui-org/react";
 import { StyledCardBlur, Subtitle, Title } from "@primitives";
 import { useRouter } from "next/router";
 import React from "react";
+import Image from 'next/image'
 
 
 const InstallBanner: React.FC = () => {
@@ -77,12 +78,15 @@ const InstallBanner: React.FC = () => {
           </Grid>
           <Grid css={{py: "$10"}} md={6} xs={12}>
             <Image   
-            showSkeleton
-            objectFit="cover"
-            maxDelay={10000}
-            src="/images/custom_web.png"
-            alt="Default Image"
-          />
+                  objectFit="cover"
+                  width={400}
+                  height={350}
+                  src="/images/hero.webp"
+                  alt="Before SEO Kolabyte"
+                  loading='lazy'
+                  blurDataURL="URL"
+                  placeholder="blur"
+                />
           </Grid>
         </Grid.Container>
       </Container>

@@ -1,7 +1,8 @@
-import { Col, Grid, Image, Row, Spacer } from "@nextui-org/react";
+import { Col, Grid, Row, Spacer } from "@nextui-org/react";
 import { Box, Section, Subtitle, Title } from "@primitives";
 import { darkTheme } from "@theme/shared";
 import { InView } from "react-intersection-observer";
+import Image from 'next/image'
 
 
 const DarkModeSection = () => {
@@ -54,13 +55,16 @@ const DarkModeSection = () => {
             sm={6}
             xs={12}
           >
-            <Col css={{d: "flex", fd: "column", ai: "flex-start", pt: "$4"}}>
+            <Col css={{dflex: "center", h: "100%"}}>
               <Image   
-                showSkeleton
                 objectFit="cover"
-                maxDelay={10000}
+                width={638}
+                height={325}
                 src="/images/sosmed.png"
-                alt="Default Image"
+                alt="Before SEO Kolabyte"
+                loading='lazy'
+                blurDataURL="URL"
+                placeholder="blur"
               />
             </Col>
           </Grid>
@@ -76,11 +80,14 @@ const DarkModeSection = () => {
           >
             <Col css={{dflex: "center", h: "100%"}}>
             <Image   
-                showSkeleton
                 objectFit="cover"
-                maxDelay={10000}
+                width={638}
+                height={325}
                 src="/images/sosmed.png"
-                alt="Default Image"
+                alt="After SEO Kolabyte"
+                loading='lazy'
+                blurDataURL="URL"
+                placeholder="blur"
               />
             </Col>
           </Grid>

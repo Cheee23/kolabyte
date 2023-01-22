@@ -47,6 +47,8 @@ const HeroComponents = () => {
           src="/images/hero.webp"
           alt="Hero image"
           loading='lazy'
+          blurDataURL="URL"
+          placeholder="blur"
         />
       </Grid>
       
