@@ -19,7 +19,7 @@ const CarbonAd: React.FC<unknown> = () => {
       isMounted &&
       setTimeout(() => {
         const script = loadScript(
-          "https://cdn.carbonads.com/carbon.js?serve=CESIC53Y&placement=nextuiorg",
+          "https://cdn.carbonads.com/carbon.js?serve=CESIC53Y&placement=fiqgant",
           ref.current,
         );
 
