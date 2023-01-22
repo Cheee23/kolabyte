@@ -1,4 +1,4 @@
-import { Container, CSS, Link, Row, Text } from "@nextui-org/react";
+import { Container, CSS, Link, Row, Text, Spacer, Col } from "@nextui-org/react";
 import React from "react";
 
 export interface Props {
@@ -7,7 +7,6 @@ export interface Props {
 }
 
 const Footer: React.FC<Props> = ({css, containerCss}) => {
-  // const year = new Date().getFullYear();
   return (
     <Container
       fluid
@@ -23,20 +22,22 @@ const Footer: React.FC<Props> = ({css, containerCss}) => {
       gap={2}
     >
       <Row css={css} justify="center">
-        {/* <Text
+        <Col>
+        <Text
           span
           className="footer__copy"
           css={{
-            fontSize: '$xs',
-            color: '$accents6',
+            fontSize: '$sm',
+            color: '$accents7',
             '@mdMax': {
               fontSize: '$xs'
             }
           }}
         >
-          &copy;&nbsp;Copyright&nbsp;{year}&nbsp;NextUI
+          &copy;&nbsp;Copyright&nbsp;2023&nbsp;Kolabyte
         </Text>
-        <Spacer x={0.5} /> */}
+        </Col>
+        <Spacer x={0.5} />
         <Text
           span
           className="footer__by"
@@ -48,7 +49,7 @@ const Footer: React.FC<Props> = ({css, containerCss}) => {
         >
           Created&nbsp;by&nbsp;
           <Link href="https://kolabyte.com" rel="noreferrer" target="_blank">
-            kolabyte.
+            Kolabyte.
           </Link>
         </Text>
       </Row>

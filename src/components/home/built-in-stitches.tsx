@@ -22,8 +22,7 @@ const items = [
     id: "simplify_syntax",
     title: "Display Advertising",
     description:
-      "layanan Display Advertising Kolabyte bisa bantu klien meningkatkan kesadaran merek dan meningkatkan konversi dengan menempatkan iklan yang indah secara visual di situs web dan platform yang ramai.",
-    lines: "29-48",
+      "Layanan Display Advertising Kolabyte bisa bantu klien meningkatkan kesadaran merek dan meningkatkan konversi dengan menempatkan iklan yang indah secara visual di situs web dan platform yang ramai.",
   },
 ];
 

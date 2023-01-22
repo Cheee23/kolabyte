@@ -36,7 +36,6 @@ const Header: React.FC<HeaderProps> = ({title, description, image, url}) => {
   return (
     <Head>
       <title>{pageTitle}</title>
-      <script>
       <meta content={`@${TWITTER_USER_NAME}`} name="twitter:site" />
       <meta content={image ? "summary_large_image" : "summary"} name="twitter:card" />
       {image && (
@@ -62,6 +61,7 @@ const Header: React.FC<HeaderProps> = ({title, description, image, url}) => {
         content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
         name="viewport"
       />
+      <script>
       <link href="/favicon.ico" rel="icon" />
       <link href="/manifest.json" rel="manifest" />
       <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
