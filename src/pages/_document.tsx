@@ -16,7 +16,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="id">
-        <Head>{CssBaseline.flush()}</Head>
+        <Head>{CssBaseline.flush()}
         <script>
           <link href="https://fonts.gstatic.com" rel="preconnect" />
           <link
@@ -24,6 +24,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </script>
+        </Head>
         <body>
           <Main />
           <NextScript />
