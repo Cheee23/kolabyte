@@ -19,14 +19,13 @@ import landingContent from "@content/landing";
 import DefaultLayout from "@layouts/default";
 import {getSlug} from "@lib/docs/utils";
 import {Route, getCurrentTag, fetchDocsManifest} from "@lib/docs/page";
-import {Sponsor, getSponsors} from "@lib/docs/sponsors";
 import {Action, useRegisterActions} from "kbar";
 import {Spacer} from "@nextui-org/react";
 import {getId} from "@utils/collections";
 
 interface Props {
   routes: Route[];
-  sponsors: Sponsor[];
+  sponsors: [];
   currentRoute: Route;
 }
 
@@ -80,12 +79,10 @@ const IndexPage: React.FC<Props> = ({routes, sponsors, currentRoute}) => {
 export const getStaticProps: GetStaticProps = async () => {
   const tag = await getCurrentTag();
   const manifest = await fetchDocsManifest(tag);
-  const sponsors = await getSponsors();
 
   return {
     props: {
       routes: manifest.routes,
-      sponsors,
     },
   };
 };
