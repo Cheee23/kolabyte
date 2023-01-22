@@ -1,4 +1,4 @@
-import { Col, Grid, Row, Spacer } from "@nextui-org/react";
+import { Col, Grid, Row, Spacer, Text } from "@nextui-org/react";
 import { Box, Section, Subtitle, Title } from "@primitives";
 import { darkTheme } from "@theme/shared";
 import { InView } from "react-intersection-observer";
@@ -55,40 +55,44 @@ const DarkModeSection = () => {
             sm={6}
             xs={12}
           >
-            <Col css={{dflex: "center", h: "100%"}}>
+            <Col css={{
+                dflex: "center",
+                fd: "column",
+                h: "100%",
+              }}>
               <Image   
                 objectFit="cover"
                 width={638}
                 height={325}
                 src="/images/sosmed.png"
                 alt="Before SEO Kolabyte"
-                loading='lazy'
                 blurDataURL="URL"
                 placeholder="blur"
               />
+              <Text css={{color: "$accents6", fontSize: "$xl"}}>Before</Text>
             </Col>
           </Grid>
           <Grid
             css={{
-              pr: 0,
+              pl: 0,
               "@xsMax": {
-                pl: "0",
+                pr: "0",
               },
             }}
             sm={6}
             xs={12}
           >
-            <Col css={{dflex: "center", h: "100%"}}>
+            <Col css={{dflex: "center", fd: "column", h: "100%"}}>
             <Image   
                 objectFit="cover"
                 width={638}
                 height={325}
                 src="/images/sosmed.png"
                 alt="After SEO Kolabyte"
-                loading='lazy'
                 blurDataURL="URL"
                 placeholder="blur"
               />
+              <Text css={{color: "$text", fontSize: "$xl"}}>After</Text>
             </Col>
           </Grid>
         </Grid.Container>

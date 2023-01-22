@@ -157,7 +157,6 @@ const BuiltInStitchesSection = () => {
                 height={325}
                 src="/images/contoh_dll.png"
                 alt="Hero image"
-                loading='lazy'
                 blurDataURL="URL"
                 placeholder="blur"
               />

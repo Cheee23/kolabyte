@@ -75,7 +75,6 @@ const CustomThemesSection = () => {
           height={682}
           src="/images/custom_web.png"
           alt="Custom Website"
-          loading='lazy'
           blurDataURL="URL"
           placeholder="blur"
         />

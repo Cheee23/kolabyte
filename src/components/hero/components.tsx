@@ -46,7 +46,6 @@ const HeroComponents = () => {
           height={500}
           src="/images/hero.webp"
           alt="Hero image"
-          loading='lazy'
           blurDataURL="URL"
           placeholder="blur"
         />

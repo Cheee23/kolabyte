@@ -46,17 +46,16 @@ const ComparationSection = () => {
               width={638}
               height={325}
               src="/images/before_sosmed.webp"
-              alt="Hero image"
-              loading='lazy'
+              alt="Before Sosmed Kolabyte"
             />
               <Text css={{color: "$accents6", fontSize: "$xl"}}>Before</Text>
             </Col>
           </Grid>
           <Grid
             css={{
-              pr: 0,
+              pl: 0,
               "@xsMax": {
-                pl: "0",
+                pr: "0",
               },
             }}
             sm={6}
@@ -68,7 +67,7 @@ const ComparationSection = () => {
                 src="/images/after_sosmed.webp"
                 width={638}
                 height={325}
-                alt="Default Image"
+                alt="After Sosmed Kolabyte"
               />
               <Text css={{color: "$text", fontSize: "$xl"}}>After</Text>
             </Col>
