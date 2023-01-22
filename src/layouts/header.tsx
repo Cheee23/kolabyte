@@ -61,18 +61,16 @@ const Header: React.FC<HeaderProps> = ({title, description, image, url}) => {
         content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
         name="viewport"
       />
-      <script>
-      <link href="/favicon.ico" rel="icon" />
-      <link href="/manifest.json" rel="manifest" />
-      <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
-      <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
-      <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
-      <link
+      <script><link href="/favicon.ico" rel="icon" /></script>
+      <script><link href="/manifest.json" rel="manifest" /></script>
+      <script><link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" /></script>
+      <script><link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" /></script>
+      <script><link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /></script>
+      <script><link
         color={isDark ? theme?.colors?.black?.value : theme?.colors?.white?.value}
         href="/safari-pinned-tab.svg"
         rel="mask-icon"
-      />
-      </script>
+      /></script>
     </Head>
   );
 };
