@@ -96,8 +96,8 @@ const Navbar: React.FC<Props> = ({isHome, hasNotify, routes}) => {
             }}
           >
             <Row align="center" justify="flex-start">
-              <NextLink href="/">
-                <Link href="/">
+              <NextLink href="https://kolabyte.vercel.app/">
+                <Link href="https://kolabyte.vercel.app/">
                   <Logo
                     auto
                     className="navbar__logo"
