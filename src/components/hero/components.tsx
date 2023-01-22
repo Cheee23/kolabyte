@@ -48,6 +48,7 @@ const HeroComponents = () => {
           alt="Hero image"
           blurDataURL="URL"
           placeholder="blur"
+          priority
         />
       </Grid>
       
