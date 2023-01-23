@@ -64,7 +64,7 @@ const DarkModeSection = () => {
                 objectFit="cover"
                 width={638}
                 height={325}
-                src="/images/sosmed.png"
+                src="/images/before_seo.webp"
                 alt="Before SEO Kolabyte"
                 blurDataURL="URL"
                 placeholder="blur"
@@ -87,7 +87,7 @@ const DarkModeSection = () => {
                 objectFit="cover"
                 width={638}
                 height={325}
-                src="/images/sosmed.png"
+                src="/images/after_seo.webp"
                 alt="After SEO Kolabyte"
                 blurDataURL="URL"
                 placeholder="blur"

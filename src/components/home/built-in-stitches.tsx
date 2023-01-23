@@ -154,7 +154,7 @@ const BuiltInStitchesSection = () => {
                 objectFit="cover"
                 width={638}
                 height={325}
-                src="/images/contoh_dll.png"
+                src="/images/illus.webp"
                 alt="Hero image"
                 blurDataURL="URL"
                 placeholder="blur"

@@ -81,8 +81,8 @@ const InstallBanner: React.FC = () => {
                   objectFit="cover"
                   width={400}
                   height={350}
-                  src="/images/hero.webp"
-                  alt="Before SEO Kolabyte"
+                  src="/images/cc.webp"
+                  alt="contact by whatsapp"
                   loading='lazy'
                   blurDataURL="URL"
                   placeholder="blur"
