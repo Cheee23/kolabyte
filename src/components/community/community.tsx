@@ -10,13 +10,14 @@ export interface CommunityProps {
   twitter?: string;
   github?: string;
   discord?: string;
+  tiktok?: string;
 }
 
 const defaultProps = {
   twitter: "https://twitter.com/kolabyte_",
   github: "https://youtube.com/@kolabyte3445",
   discord: "https://instagram.com/kolabyte_",
-  tiktok: "https://www.tiktok.com/@kolabyte"
+  tiktok: "https://www.tiktok.com/@kolabyte",
 };
 
 const DynamicLopperBG = dynamic(() => import("../looper-bg"), {
