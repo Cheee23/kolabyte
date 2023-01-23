@@ -101,7 +101,7 @@ const useActions = (): Action[] => {
     {
       id: "tiktok",
       name: "Tiktok",
-      subtitle: "@Kolabyte",
+      subtitle: "@kolabyte",
       section: "Social",
       shortcut: [],
       keywords: "video, tiktok, watch",
