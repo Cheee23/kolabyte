@@ -11,6 +11,7 @@ const icons: {[key: string]: any} = {
   note: IconPack.Note,
   twitter: IconPack.Twitter,
   discord: IconPack.Discord,
+  tiktok: IconPack.Tiktok,
   github: IconPack.Github,
   palette: IconPack.Palette,
   moon: IconPack.Moon,

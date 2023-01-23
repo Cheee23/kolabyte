@@ -21,21 +21,22 @@
               "icon": "/paper.svg",
               "routes": [
                 {
-                  "title": "Cara meningkatkan SEO",
-                  "keywords": "meningkatkan, SEO, kolabyte",
-                  "path": "/docs/blog/artikel/intro.mdx"
+                  "title": "Traffic Media Sosial",
+                  "keywords": "meningkatkan, Traffic, Sosmed, kolabyte",
+                  "path": "/docs/blog/artikel/traffic_sosmed.mdx"
                 }
               ]
             },
             {
               "title": "Tutorial",
               "keywords": "tutorial, kolabyte",
-              "icon": "/category.svg",
+              "icon": "/paper.svg",
               "open": true,
               "routes": [
                 {
-                  "title": "Tutorial",
-                  "path": "/docs/blog/tutorial/intro.mdx",
+                  "title": "Instagram HD",
+                  "keywords": "meningkatkan, HD, instagram, kolabyte",
+                  "path": "/docs/blog/tutorial/ig_tanpa_pecah.mdx",
                   "updated": true
                 }
               ]
@@ -45,32 +46,35 @@
         {
           "title": "Portofolio",
           "keywords": "work, portofolio, kolabyte",
-          "icon": "/components.svg",
+          "icon": "/layout.svg",
           "open": true,
           "routes": [
             {
               "title": "SEO",
               "open": true,
+              "comingSoon": true,
               "keywords": "portofolio, kolabyte, seo, work",
-              "icon": "/paper.svg",
+              "icon": "/layout.svg",
               "routes": [
                 {
-                  "title": "Cara meningkatkan SEO",
+                  "title": "SEO",
                   "keywords": "meningkatkan, SEO, kolabyte",
-                  "path": "/docs/portofolio/seo/intro.mdx"
+                  "path": "/docs/portofolio/seo/intro.mdx",
+                  "comingSoon": true
                 }
               ]
             },
             {
               "title": "Website",
               "keywords": "portofolio, kolabyte, website, work",
-              "icon": "/category.svg",
+              "icon": "/layout.svg",
+              "comingSoon": true,
               "open": true,
               "routes": [
                 {
                   "title": "Website",
                   "path": "/docs/portofolio/website/intro.mdx",
-                  "updated": true
+                  "comingSoon": true
                 }
               ]
             }
