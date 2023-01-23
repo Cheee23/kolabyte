@@ -1,12 +1,11 @@
 import React from "react";
 import dynamic from "next/dynamic";
 import {Grid, Text, Row, Spacer} from "@nextui-org/react";
-import {Twitter, Discord, Github} from "@components";
+import {Twitter, Discord, Github, Tiktok} from "@components";
 import {Title, Subtitle} from "@primitives";
 import withDefaults from "@utils/with-defaults";
 
 import {StyledCommunityCard} from "./styles";
-
 export interface CommunityProps {
   twitter?: string;
   github?: string;
@@ -14,9 +13,10 @@ export interface CommunityProps {
 }
 
 const defaultProps = {
-  twitter: "https://twitter.com/getnextui",
-  github: "https://github.com/nextui-org/nextui",
-  discord: "https://discord.gg/9b6yyZKmH4",
+  twitter: "https://twitter.com/kolabyte_",
+  github: "https://youtube.com/@kolabyte3445",
+  discord: "https://instagram.com/kolabyte_",
+  tiktok: "https://www.tiktok.com/@kolabyte"
 };
 
 const DynamicLopperBG = dynamic(() => import("../looper-bg"), {
@@ -46,7 +46,7 @@ const Community: React.FC<CommunityProps> = ({twitter, github, discord}) => {
           <Spacer y={0.5} />
           <Row align="center" justify="flex-start">
             <Text css={{color: "$accents8", textAlign: "left"}}>
-              For announcements, tips and general information.
+            Untuk pengumuman, tips, dan informasi umum. Hubungi kami untuk info lebih lanjut.
             </Text>
           </Row>
         </StyledCommunityCard>
@@ -54,14 +54,14 @@ const Community: React.FC<CommunityProps> = ({twitter, github, discord}) => {
       <Grid justify="center" md={3} sm={6} xs={12}>
         <StyledCommunityCard href={discord} rel="noopener noreferrer" target="_blank">
           <Row align="center" justify="flex-start">
-            <Discord fill="#7289DA" size={30} />
+            <Discord fill="#AD378B" size={30} />
             <Spacer x={0.4} />
-            <Text h5>Discord</Text>
+            <Text h5>Instagram</Text>
           </Row>
           <Spacer y={0.5} />
           <Row align="center" justify="flex-start">
             <Text css={{color: "$accents8"}}>
-              To get involved in the community, ask questions and share tips.
+            Untuk terlibat dalam komunitas, melihat portofolio, pengumuman, tips, dan informasi umum. Ikuti kami untuk info lebih lanjut.
             </Text>
           </Row>
         </StyledCommunityCard>
@@ -69,13 +69,33 @@ const Community: React.FC<CommunityProps> = ({twitter, github, discord}) => {
       <Grid justify="center" md={3} sm={6} xs={12}>
         <StyledCommunityCard href={github} rel="noopener noreferrer" target="_blank">
           <Row align="center" justify="flex-start">
-            <Github className="github-icon" fill="#E7E7E7" size={30} />
+            <Github fill="#F20000" size={30} />
             <Spacer x={0.4} />
-            <Text h5>GitHub</Text>
+            <Text h5>Youtube</Text>
           </Row>
           <Spacer y={0.5} />
           <Row align="center" justify="flex-start">
-            <Text css={{color: "$accents8"}}>For issues, feature requests and contribute.</Text>
+            <Text css={{color: "$accents8"}}>Untuk terlibat dalam komunitas, melihat portofolio, pengumuman, tips, dan informasi umum. Tonton video kami.</Text>
+          </Row>
+        </StyledCommunityCard>
+      </Grid>
+      <DynamicLopperBG
+        css={{
+          zIndex: "-$1",
+          position: "absolute",
+          transform: "translate(5%, -70%)",
+        }}
+      />
+      <Grid justify="center" md={3} sm={6} xs={12}>
+        <StyledCommunityCard href="https://www.tiktok.com/@kolabyte" rel="noopener noreferrer" target="_blank">
+          <Row align="center" justify="flex-start">
+            <Tiktok size={30} />
+            <Spacer x={0.4} />
+            <Text h5>Tiktok</Text>
+          </Row>
+          <Spacer y={0.5} />
+          <Row align="center" justify="flex-start">
+            <Text css={{color: "$accents8"}}>Untuk terlibat dalam komunitas, melihat portofolio, pengumuman, tips, dan informasi umum di TikTok, tonton video kami dan ikuti akun kami.</Text>
           </Row>
         </StyledCommunityCard>
       </Grid>

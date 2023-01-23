@@ -8,6 +8,7 @@ import {
   ThemeToggle,
   NotifyBanner,
   Mail,
+  Tiktok
 } from "@components";
 import {Box} from "@primitives";
 import cn from "classnames";
@@ -114,7 +115,7 @@ const Navbar: React.FC<Props> = ({isHome, hasNotify, routes}) => {
           <Col className="navbar__resources-container" css={{"@mdMax": {d: "none"}}}>
             <Row align="center" justify="center">
               <Spacer x={1} y={0} />
-              <NextLink href="/docs/blog/artikel/intro">
+              <NextLink href="https://kolabyte.vercel.app/docs/blog/artikel/intro">
                 <Link
                   className={cn("navbar__link", {
                     active:
@@ -134,7 +135,7 @@ const Navbar: React.FC<Props> = ({isHome, hasNotify, routes}) => {
                 </Link>
               </NextLink>
               <Spacer x={1} y={0} />
-              <NextLink href="/docs/portofolio/seo/intro">
+              <NextLink href="https://kolabyte.vercel.app/docs/portofolio/seo/intro">
                 <Link
                   aria-disabled
                   className={cn("navbar__link", {
@@ -192,7 +193,7 @@ const Navbar: React.FC<Props> = ({isHome, hasNotify, routes}) => {
                       },
                     },
                   }}
-                  href="https://twitter.com/getnextui"
+                  href="https://twitter.com/Kolabyte_"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -211,7 +212,7 @@ const Navbar: React.FC<Props> = ({isHome, hasNotify, routes}) => {
                       },
                     },
                   }}
-                  href="https://discord.gg/9b6yyZKmH4"
+                  href="https://instagram.com/kolabyte_"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -230,11 +231,30 @@ const Navbar: React.FC<Props> = ({isHome, hasNotify, routes}) => {
                       },
                     },
                   }}
-                  href="https://github.com/nextui-org/nextui"
+                  href="https://youtube.com/@kolabyte3445"
                   rel="noreferrer"
                   target="_blank"
                 >
                   <Github size={24} />
+                </Link>
+                <Link
+                  className="navbar__social-icon"
+                  css={{
+                    m: "0 6px",
+                    "& svg": {
+                      transition: "$default",
+                    },
+                    "&:hover": {
+                      "& svg": {
+                        opacity: 0.7,
+                      },
+                    },
+                  }}
+                  href="https://tiktok.com/@kolabyte"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <Tiktok size={24} />
                 </Link>
                 <ThemeToggle
                   className="navbar__social-icon"
