@@ -23,7 +23,7 @@ const DynamicLopperBG = dynamic(() => import("../looper-bg"), {
   ssr: false,
 });
 
-const Community: React.FC<CommunityProps> = ({twitter, github, discord}) => {
+const Community: React.FC<CommunityProps> = ({twitter, github, discord, tiktok}) => {
   return (
     <Grid.Container css={{position: "relative"}} gap={2} justify="center">
       <Grid css={{mb: "$10"}} direction="column" xs={12}>
@@ -87,7 +87,7 @@ const Community: React.FC<CommunityProps> = ({twitter, github, discord}) => {
         }}
       />
       <Grid justify="center" md={3} sm={6} xs={12}>
-        <StyledCommunityCard href="https://www.tiktok.com/@kolabyte" rel="noopener noreferrer" target="_blank">
+        <StyledCommunityCard href={tiktok} rel="noopener noreferrer" target="_blank">
           <Row align="center" justify="flex-start">
             <Tiktok size={30} />
             <Spacer x={0.4} />
