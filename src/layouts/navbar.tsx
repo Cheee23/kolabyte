@@ -115,7 +115,7 @@ const Navbar: React.FC<Props> = ({isHome, hasNotify, routes}) => {
           <Col className="navbar__resources-container" css={{"@mdMax": {d: "none"}}}>
             <Row align="center" justify="center">
               <Spacer x={1} y={0} />
-              <NextLink href="https://kolabyte.vercel.app/docs/blog/artikel/intro">
+              <NextLink href="https://kolabyte.vercel.app/docs/blog/artikel/traffic_sosmed">
                 <Link
                   className={cn("navbar__link", {
                     active:
@@ -135,7 +135,7 @@ const Navbar: React.FC<Props> = ({isHome, hasNotify, routes}) => {
                 </Link>
               </NextLink>
               <Spacer x={1} y={0} />
-              <NextLink href="https://kolabyte.vercel.app/docs/portofolio/seo/intro">
+              <NextLink href="https://kolabyte.vercel.app/">
                 <Link
                   aria-disabled
                   className={cn("navbar__link", {
